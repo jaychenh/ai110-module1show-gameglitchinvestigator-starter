@@ -30,7 +30,7 @@ It wrote the code, ran away, and now the game is unplayable.
 - [✔️] Detail which bugs you found.
    The bugs I found were logic and interface. One of the logic bug would be higher and lower being incorrect. The other one would be the attempt counter, it is 1 off the counter. The visual bug would be that when we change the difficulty visually. I would change the difficulty from Easy, Normal, and Hard, but the range does not change or the number of attempts. 
 - [✔️] Explain what fixes you applied.
-   For each fix, I put in the issues and debug and test each of them. 
+   For each fix, I put in the issues and debug and test each of them. I will keep doing this processes until I fix all the issues. 
 
 ## 📸 Demo Walkthrough
 
