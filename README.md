@@ -25,19 +25,24 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- [✔️] Describe the game's purpose.
+   The game's purpose is to guess the game with a limited guesses if the guesses run out, you lose the game. If you guess the correct answer, you win the game and get points.
+- [✔️] Detail which bugs you found.
+   The bugs I found were logic and interface. One of the logic bug would be higher and lower being incorrect. The other one would be the attempt counter, it is 1 off the counter. The visual bug would be that when we change the difficulty visually. I would change the difficulty from Easy, Normal, and Hard, but the range does not change or the number of attempts. 
+- [✔️] Explain what fixes you applied.
+   For each fix, I put in the issues and debug and test each of them. 
 
 ## 📸 Demo Walkthrough
 
 Describe your fixed game in numbered steps so a reader can follow along without watching a video:
 
-1. <!-- Describe this step -->
-2. <!-- Describe this step -->
-3. <!-- Describe this step -->
-4. <!-- Describe this step -->
-5. <!-- Add more steps as needed -->
+1. User enters a guess of 1
+2. Game returns "Go HIGHER!"
+3. User enters a guess of 10 → "Go HIGHER!"
+4. User enters a guess of 43 → "Go LOWER!"
+5. User enters a guess of 43 → "🎉Correct!"
+6. "You won! The secret was 42. Final score: 35"
+7. Game ends after the correct guess
 
 **Screenshot** *(optional)*: <!-- Insert a screenshot of your fixed, winning game here -->
 
@@ -46,7 +51,7 @@ Describe your fixed game in numbered steps so a reader can follow along without 
 ```
 # Paste your pytest output here, e.g.:
 # pytest tests/
-# ========================= X passed in 0.XXs =========================
+# ========================= 5 passed in 0.02s =========================
 ```
 
 ## 🚀 Stretch Features
